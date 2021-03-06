@@ -1,0 +1,128 @@
+body {
+    box-sizing: border-box;
+    background-color: rgba(119, 119, 233, 0.5);
+}
+
+.container {
+    display: flex;
+    height: 600px;
+    width: 500px;
+    background-color: #fff;
+    margin: 130px auto;
+}
+
+.left-side {
+    width: 20%;
+}
+
+.left-circle {
+    margin-top: 340px;
+    height: 200px;
+    width: 100px;
+    border-bottom-right-radius: 200px;
+    border-top-right-radius: 200px;
+    background: linear-gradient(#b56dde, #3cd2e5);
+}
+
+.center {
+    width: 60%;
+    margin-left: 30px;
+}
+
+.login {
+    margin-top: 140px;
+    color: grey;
+}
+
+.login h1 {
+    color: turquoise;
+}
+
+.email {
+    margin-top: 50px;
+}
+
+.email input,
+.password input {
+    border: 0px;
+    border-bottom: 1px solid lightgrey;
+    padding: 15px 20px 15px 30px;
+    color: grey;
+    width: 70%;
+}
+
+input:focus {
+    outline: 0;
+    border-bottom: 1px solid turquoise;
+}
+
+input::placeholder {
+    color: grey;
+}
+
+.email input {
+    background-image: url(img/envelope-closed-16.png);
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+}
+
+.password input {
+    margin-top: 20px;
+    background-image: url(img/padlock-3-16.png);
+    background-repeat: no-repeat;
+    background-position-y: 15px;
+}
+
+a {
+    color: grey;
+    text-decoration: none;
+}
+
+.forgot {
+    margin-top: 20px;
+}
+
+.forgot span {
+    margin-left: 10px;
+}
+
+.button {
+    margin-top: 20px;
+    width: 90%;
+}
+
+.btn {
+    display: block;
+    text-align: center;
+    background: linear-gradient(to right bottom, #B962DB, #572ADD);
+    font-size: 18px;
+    padding: 10px 0px;
+    color: white;
+    border-radius: 3px;
+}
+
+.sign-up {
+    margin-top: 20px;
+    color: grey;
+    font-size: 15px;
+}
+
+.sign-up span a {
+    margin-left: 5px;
+    color: turquoise;
+}
+
+
+.right-side {
+    width: 20%;
+}
+
+.right-circle {
+    margin-top: 40px;
+    height: 200px;
+    width: 100px;
+    border-bottom-left-radius: 200px;
+    border-top-left-radius: 200px;
+    margin-left: 20px;
+    background: linear-gradient(#b56dde, #3cd2e5);
+}
